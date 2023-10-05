@@ -4,7 +4,7 @@ import { Libre_Baskerville } from "next/font/google";
 import { Source_Sans_3 } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
-import mjLogo from "../public/heart-code-logo.svg";
+import mjLogo from "@/public/images/heart-code-logo.svg";
 import gitHubIcon from "../public/icon-github.png";
 import linkedinIcon from "../public/icon-linkedin.png";
 
