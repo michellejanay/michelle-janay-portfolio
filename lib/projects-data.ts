@@ -1,6 +1,7 @@
 import { Project } from "@/types";
 export const projectData: Project[] = [
   {
+    id: 1,
     title: "wix website clone",
     deployment: "https://michellejanay-wix-clone.netlify.app",
     source_code: "https://github.com/michellejanay/responsive-grid-project",
@@ -9,6 +10,7 @@ export const projectData: Project[] = [
     gif: "/gifs/wix.gif",
   },
   {
+    id: 2,
     title: "magic 8 ball",
     deployment: "https://magic-michellejanay.netlify.app",
     source_code: "https://github.com/michellejanay/magic",
@@ -17,6 +19,7 @@ export const projectData: Project[] = [
     gif: "/gifs/magic.gif",
   },
   {
+    id: 3,
     title: "TV DOM Project",
     deployment: "https://cyf-michellejanay-tv-dom-project.netlify.app/",
     source_code: "https://github.com/michellejanay/tv-show-dom-project",
@@ -25,6 +28,7 @@ export const projectData: Project[] = [
     gif: "/gifs/tv-dom-project.gif",
   },
   {
+    id: 4,
     title: "Quote App",
     deployment: "https://michellejanay-quote-server.netlify.app/",
     source_code: "https://github.com/michellejanay/quote-app",
@@ -33,6 +37,7 @@ export const projectData: Project[] = [
     gif: "/gifs/quote-app.gif",
   },
   {
+    id: 5,
     title: "Video App",
     deployment: "https://michellejanay-cyf-video-app.onrender.com/",
     source_code: "https://github.com/michellejanay/Video-App",

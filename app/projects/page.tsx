@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className={"font-libre"}>Projects</h2>
       <div className="grid md:grid-cols-3">
         {projectData.map((p) => (
-          <div className="">
+          <div className="" key={p.id}>
             <h3>{p.title}</h3>
             <Image
               src={p.image}
