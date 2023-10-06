@@ -23,7 +23,9 @@ const Form: NextPage = () => {
     router.replace("/thank-you");
   };
 
-  const handleUserInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleUserInput = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
