@@ -3,14 +3,28 @@ import type { NextPage } from "next";
 import { useState } from "react";
 
 const Form: NextPage = () => {
-  const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    message: "",
+  });
 
-  const sendMessage = () => {
-    console.log(`${fullName} submitted a message successfully. 
-    Email: ${email}
-    Message: ${message}`);
+  const sendMessage = (): void => {
+    console.log(`${formData.fullName} submitted a message successfully. 
+    Email: ${formData.email}
+    Message: ${formData.message}`);
+    setFormData({
+      fullName: "",
+      email: "",
+      message: "",
+    });
+  };
+
+  const handleUserInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
 
   return (
@@ -21,9 +35,6 @@ const Form: NextPage = () => {
           onSubmit={(e) => {
             e.preventDefault();
             sendMessage();
-            setEmail("");
-            setFullName("");
-            setMessage("");
           }}
           className="m-4 lg:min-w-[64%] lg:mx-auto"
         >
@@ -32,10 +43,10 @@ const Form: NextPage = () => {
             <input
               type="text"
               autoComplete="name"
-              name="full-name"
+              name="fullName"
               required={true}
-              value={fullName}
-              onChange={(e) => setFullName(e.target.value)}
+              value={formData.fullName}
+              onChange={handleUserInput}
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -45,8 +56,8 @@ const Form: NextPage = () => {
               autoComplete="email"
               name="email"
               required={true}
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={formData.email}
+              onChange={handleUserInput}
             />
           </div>
           <div className="flex flex-col mb-4">
@@ -54,8 +65,8 @@ const Form: NextPage = () => {
             <textarea
               name="message"
               required={true}
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              value={formData.message}
+              onChange={handleUserInput}
             />
           </div>
           <button
