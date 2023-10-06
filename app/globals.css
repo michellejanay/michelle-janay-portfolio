@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  h2 {
+    @apply font-serif;
+  }
+  ,
+  h3 {
+    @apply font-serif;
+  }
   p {
     @apply my-4;
   }
