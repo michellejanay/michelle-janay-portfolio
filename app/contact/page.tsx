@@ -1,6 +1,7 @@
 "use client";
 import type { NextPage } from "next";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const Form: NextPage = () => {
   const [formData, setFormData] = useState({
@@ -8,6 +9,7 @@ const Form: NextPage = () => {
     email: "",
     message: "",
   });
+  const router = useRouter();
 
   const sendMessage = (): void => {
     console.log(`${formData.fullName} submitted a message successfully. 
@@ -18,6 +20,7 @@ const Form: NextPage = () => {
       email: "",
       message: "",
     });
+    router.replace("/thank-you");
   };
 
   const handleUserInput = (e: React.ChangeEvent<HTMLInputElement>) => {
