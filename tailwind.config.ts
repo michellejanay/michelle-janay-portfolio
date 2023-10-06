@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
   content: [
@@ -13,11 +14,28 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontSize: {
+        "2xl": [
+          "2rem",
+          {
+            lineHeight: "2.5rem",
+            fontWeight: "700",
+          },
+        ],
+      },
       fontFamily: {
         sans: ["var(--font-libre)"],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, config }) {
+      addBase({
+        h1: { fontSize: config("theme.fontSize.2xl") },
+        h2: { fontSize: config("theme.fontSize.xl") },
+        h3: { fontSize: config("theme.fontSize.lg") },
+      });
+    }),
+  ],
 };
 export default config;
