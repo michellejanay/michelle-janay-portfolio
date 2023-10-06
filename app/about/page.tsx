@@ -5,8 +5,8 @@ import heartCodeLogo from "@/public/images/heart-code-logo-1.png";
 export default function About() {
   return (
     <>
-      <h2 className="font-libre">About Me</h2>
-      <article className="flex flex-col justify-center mx-8 lg:max-w-[70%] mx-auto">
+      <article className="flex flex-col mx-8 lg:max-w-[70%] mx-auto">
+        <h2 className="font-libre">About Me</h2>
         <section className="flex flex-col md:grid grid-cols-3 gap-5 ">
           <p className="col-span-2">
             {`As someone who has 8+ years of experience in the Hospitality industry, I've had many various service-based roles. I wanted a change in my life, so I decided to retake the Myers-Briggs personality test to see what types of roles I could be suitable for. One that caught my eye was Web Development / Software Engineering. I never knew the two could be so similar.`}
@@ -24,7 +24,7 @@ export default function About() {
           <Image
             src={sparkles}
             alt="sparkles emoji"
-            className="m-auto mr-0 md: mr-auto"
+            className="m-auto mr-0 md:mr-auto"
           />
         </section>
         <section className="flex flex-col lg:grid-cols-2">

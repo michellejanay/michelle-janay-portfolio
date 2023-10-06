@@ -5,13 +5,14 @@
 @layer base {
   h2 {
     @apply font-serif;
+    @apply tracking-wide;
   }
   ,
   h3 {
     @apply font-serif;
   }
   p {
-    @apply my-4;
+    @apply py-4;
   }
 
   input,
