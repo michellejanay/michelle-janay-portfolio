@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -9,6 +10,14 @@ export default function Home() {
         algorithms in JavaScript and working with different JavaScript
         frameworks`}
       </p>
+      <Link
+        href="/MB-Software-Developer.pdf"
+        download={true}
+        target="_blank"
+        className="py-2 px-6 m-auto bg-black m-auto my-4 text-white rounded"
+      >
+        CV Download
+      </Link>
     </>
   );
 }
