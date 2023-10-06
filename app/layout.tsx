@@ -5,8 +5,8 @@ import { Source_Sans_3 } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import mjLogo from "@/public/images/heart-code-logo.svg";
-import gitHubIcon from "../public/icon-github.png";
-import linkedinIcon from "../public/icon-linkedin.png";
+import gitHubIcon from "@/public/icon-github.png";
+import linkedinIcon from "@/public/icon-linkedin.png";
 
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 export const libreB = Libre_Baskerville({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sourceSans.className}>
-        <header className="grid grid-flow-col">
+        <header className="grid grid-flow-col mx-2">
           <Image src={mjLogo} alt="logo" width="200" className="m-auto mr-0" />
           <div className="flex flex-col self-center">
             <h1 className={`${libreB.className}`}>{`michelle`}</h1>
@@ -50,7 +50,7 @@ export default function RootLayout({
             <Image src={linkedinIcon} alt="linkedin icon" width={20} />
           </Link>
         </nav>
-        {children}
+        <main className="mx-4 my-8">{children}</main>
       </body>
     </html>
   );
