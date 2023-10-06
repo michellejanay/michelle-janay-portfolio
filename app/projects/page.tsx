@@ -19,8 +19,8 @@ export default function Projects() {
                 className=""
               />
               <div>
-                <Link href={p.deployment}>Deployment</Link>
-                <Link href={p.source_code}>Source Code</Link>
+                <Link href={p.deployment} target="_blank">Deployment</Link>
+                <Link href={p.source_code} target="_blank">Source Code</Link>
               </div>
               <p>
                 <span className="font-bold">Technologies: </span>{" "}

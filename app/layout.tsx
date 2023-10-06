@@ -44,7 +44,7 @@ export default function RootLayout({
           <Link href={"about"}>about</Link>
           <Link href={"projects"}>projects</Link>
           <Link href={"contact"}>contact</Link>
-          <Link href={"https://github.com/michellejany"} target="_blank">
+          <Link href={"https://github.com/michellejanay"} target="_blank">
             <Image src={gitHubIcon} alt="github icon" width={20} />
           </Link>
           <Link href={"https://linkedin.com/in/michelle-janay"} target="_blank">
