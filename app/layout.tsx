@@ -28,12 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sourceSans.className}>
-        <header className="grid grid-flow-col mx-2">
-          <Image src={mjLogo} alt="logo" width="200" className="m-auto mr-0" />
-          <div className="flex flex-col self-center">
-            <h1 className={`${libreB.className}`}>{`michelle`}</h1>
-            <h1 className={`${libreB.className}`}>{`janay`}</h1>
-            <caption className="uppercase text-left py-2 tracking-widest">
+        <header className="grid grid-flow-col gap-2 mx-2">
+          <Image src={mjLogo} alt="logo" width="168" className="m-auto mr-0" />
+          <div className="flex flex-col self-center mb-1">
+            <h1 className={`${libreB.className}`}>michelle <br/> janay</h1>
+            <caption className="uppercase text-left text-[.875rem] leading-5">
               software developer
             </caption>
           </div>

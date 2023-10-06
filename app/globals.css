@@ -3,17 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
-    @apply text-[2.5rem];
-    @apply tracking-wide;
-    @apply leading-[.9em];
-  }
-  h2 {
-    @apply font-serif;
-    @apply text-[2rem];
-    @apply leading-[1.2em];
-  }
   p {
-    @apply py-4;
+    @apply my-4;
+  }
+
+  input,
+  textarea {
+    @apply bg-gray-200;
+    @apply p-2;
+    @apply rounded;
   }
 }

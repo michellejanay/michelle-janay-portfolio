@@ -5,16 +5,16 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <>
-      <h2 className={"font-libre"}>Projects</h2>
-      <div className="grid md:grid-cols-3">
+      <h2 className={"font-libre mb-4"}>Projects</h2>
+      <div className="grid gap-4 md:grid-cols-3 justify-center">
         {projectData.map((p) => (
           <div className="" key={p.id}>
             <h3>{p.title}</h3>
             <Image
               src={p.image}
               alt={p.image}
-              width="200"
-              height="200"
+              width="400"
+              height="400"
               className=""
             />
             <div>
