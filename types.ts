@@ -1,4 +1,4 @@
-export interface Project {
+export interface ProjectTypes {
   id: number;
   title: string;
   deployment: string;
@@ -7,3 +7,4 @@ export interface Project {
   image: string;
   gif: string;
 }
+[];

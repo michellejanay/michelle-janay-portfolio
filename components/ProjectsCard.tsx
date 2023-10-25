@@ -1,11 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Project } from "@/types";
+import { ProjectTypes } from "@/types";
 
-export default function ProjectsCard({ projectData }: Project) {
+interface ProjectsProps {
+  projectData: ProjectTypes[];
+}
+
+export default function ProjectsCard({ projectData }: ProjectsProps) {
   return (
     <>
-      {projectData.reverse().map((p: Project) => (
+      {projectData.reverse().map((p) => (
         <div
           className="border border-[#252131] border-r-8 border-b-8 rounded p-4"
           key={p.id}
