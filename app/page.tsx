@@ -16,9 +16,9 @@ export default function Home() {
         href="/MB-Software-Developer.pdf"
         download={true}
         target="_blank"
-        className="py-2 px-6 bg-black text-white rounded self-center"
+        className="my-4 py-2 px-6 bg-[#252131] text-white rounded self-center"
       >
-        CV Download
+        Download my CV
       </Link>
     </div>
   );

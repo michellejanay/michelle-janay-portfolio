@@ -22,3 +22,9 @@
     @apply rounded;
   }
 }
+
+.button-style {
+  border: solid grey 1px;
+  padding: 0.4em;
+  border-radius: 0.25rem;
+}

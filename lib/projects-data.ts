@@ -2,7 +2,7 @@ import { Project } from "@/types";
 export const projectData: Project[] = [
   {
     id: 1,
-    title: "wix website clone",
+    title: "Wix Website Clone",
     deployment: "https://michellejanay-wix-clone.netlify.app",
     source_code: "https://github.com/michellejanay/responsive-grid-project",
     technologies: "HTML/CSS grid",
