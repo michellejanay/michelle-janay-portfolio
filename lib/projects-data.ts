@@ -1,5 +1,5 @@
-import { Project } from "@/types";
-export const projectData: Project[] = [
+import { ProjectTypes } from "@/types";
+export const projectData: ProjectTypes[] = [
   {
     id: 1,
     title: "Wix Website Clone",
