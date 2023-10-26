@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ProjectTypes } from "@/types";
 
+//why are my local changes not pushing?
 interface ProjectsCardProps {
   projectData: ProjectTypes[];
 }
