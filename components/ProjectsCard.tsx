@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { ProjectTypes } from "@/types";
 
-interface ProjectsProps {
+interface ProjectsCardProps {
   projectData: ProjectTypes[];
 }
 
-export default function ProjectsCard({ projectData }: ProjectsProps) {
+export default function ProjectsCard({ projectData }: ProjectsCardProps) {
   return (
     <>
       {projectData.reverse().map((p) => (
