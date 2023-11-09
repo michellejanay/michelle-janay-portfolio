@@ -21,6 +21,15 @@
     @apply p-2;
     @apply rounded;
   }
+  button {
+    @apply mr-4;
+    @apply my-2;
+    @apply px-4;
+    @apply py-2;
+    @apply bg-black;
+    @apply text-white;
+    @apply rounded;
+  }
 }
 
 .button-style {
