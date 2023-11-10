@@ -1,12 +1,13 @@
 import ProjectsCard from "@/components/ProjectsCard";
 import getAllProjects from "@/lib/getAllProjects";
-
+import Navigation from "@/components/Navigation";
 
 export default async function Projects() {
   const projects = await getAllProjects();
 
   return (
     <>
+      <Navigation />
       <h2 className={"font-libre mb-4 lg:max-w-[70%] lg:m-auto"}>Projects</h2>
       <section className={"font-libre mb-4 lg:max-w-[70%] lg:m-auto"}>
         <button>UX/UI</button>

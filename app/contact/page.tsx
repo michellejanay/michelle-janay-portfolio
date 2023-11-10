@@ -3,6 +3,8 @@ import type { NextPage } from "next";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+import Navigation from "@/components/Navigation";
+
 const Form: NextPage = () => {
   const [formData, setFormData] = useState({
     fullName: "",
@@ -34,6 +36,7 @@ const Form: NextPage = () => {
 
   return (
     <>
+      <Navigation />
       <div className="flex flex-col lg:max-w-[70%] lg:m-auto">
         <h2 className="font-libre">Get in touch...</h2>
         <form

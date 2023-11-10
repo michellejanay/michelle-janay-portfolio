@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import filterProjects from "@/lib/filterProjects";
 
 export default function ProjectsCard({ projectData }: any) {
   return (
@@ -10,13 +11,15 @@ export default function ProjectsCard({ projectData }: any) {
           key={p.id}
         >
           <h3>{p.title}</h3>
-          <Image
-            src={p.image}
-            alt={p.image}
-            width="400"
-            height="400"
-            className="pt-2"
-          />
+          <Link href={`./projects/${p.id}`}>
+            <Image
+              src={p.image}
+              alt={p.image}
+              width="400"
+              height="400"
+              className="pt-2"
+            />
+          </Link>
           <p>
             <span className="font-bold">Technologies: </span> {p.technologies}
           </p>

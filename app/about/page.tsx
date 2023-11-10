@@ -2,9 +2,11 @@ import Image from "next/image";
 import lightBulb from "@/public/images/light-bulb.png";
 import sparkles from "@/public/images/sparkles.png";
 import heartCodeLogo from "@/public/images/heart-code-logo-1.png";
+import Navigation from "@/components/Navigation";
 export default function About() {
   return (
     <>
+      <Navigation />
       <article className="flex flex-col mx-8 lg:max-w-[70%] mx-auto">
         <h2 className="font-libre">About Me</h2>
         <section className="flex flex-col md:grid grid-cols-3 gap-5 ">

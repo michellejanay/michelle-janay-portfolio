@@ -1,3 +1,3 @@
-export default async function filterProjects() {
+export default async function filterProjects(id) {
   //todo
 }
