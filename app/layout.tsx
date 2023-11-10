@@ -35,9 +35,9 @@ export default function RootLayout({
             <h1 className={`${libreB.className} mt-[-.4rem] mb-[.4rem]`}>
               janay
             </h1>
-            <caption className="uppercase text-left text-[.875rem] leading-5">
+            {/* <caption className="uppercase text-left text-[.875rem] leading-5">
               software developer
-            </caption>
+            </caption> */}
           </div>
         </header>
         <nav className="flex justify-evenly lg:max-w-[90%] m-auto">
