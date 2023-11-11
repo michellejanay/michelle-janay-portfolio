@@ -402,7 +402,32 @@ export default function LushIsLush() {
       <div></div>
 
       {/*           HIRE ME        */}
-      <div></div>
+      <div>
+        <footer className="bg-[#333333] text-white p-4">
+          <h1>
+            Hire me<span className="text-[#FF68BA]">.</span>
+          </h1>
+
+          <p className="m-0">
+            <strong>Michelle Bennett</strong>
+          </p>
+          <p className="p-0">UX Researcher && Full Stack Developer</p>
+          <p className="p-0">
+            <strong>+44 7908432915</strong>
+          </p>
+          <div className="flex flex-col text-[#FF68BA]">
+            <Link href="mailto: michelle.janay.dev@gmail.com">
+              michelle.janay.dev@gmail.com
+            </Link>
+            <Link href="https://linkedin.com/in/michelle-janay">
+              linkedin.com/in/michelle-janay
+            </Link>
+            <Link href="https://github.com/michellejanay">
+              github.com/michellejanay
+            </Link>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }
