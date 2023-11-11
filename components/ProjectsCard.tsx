@@ -18,7 +18,7 @@ export default function ProjectsCard({ projectData }: any) {
                 alt={p.image}
                 width="400"
                 height="400"
-                className="pt-2"
+                className="pt-2 "
               />
             </Link>
           )}
@@ -29,7 +29,7 @@ export default function ProjectsCard({ projectData }: any) {
                 alt={p.image}
                 width="400"
                 height="400"
-                className="pt-2"
+                className="pt-2 "
               />
             </Link>
           )}
