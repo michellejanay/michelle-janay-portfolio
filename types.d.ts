@@ -1,4 +1,4 @@
-export interface ProjectTypes {
+type Project = {
   id: number;
   title: string;
   deployment: string;
@@ -8,5 +8,5 @@ export interface ProjectTypes {
   image: string;
   gif: string;
   type: String[];
-}
+};
 [];

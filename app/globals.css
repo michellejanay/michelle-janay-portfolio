@@ -7,12 +7,23 @@
     @apply font-serif;
     @apply tracking-wide;
   }
-  ,
+
   h3 {
     @apply font-serif;
   }
+
+  h5 {
+    @apply uppercase;
+    @apply font-bold;
+  }
+
   p {
     @apply py-4;
+  }
+
+  em {
+    @apply text-sm;
+    @apply text-[grey];
   }
 
   input,
