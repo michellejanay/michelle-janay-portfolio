@@ -9,6 +9,9 @@ import LushUserJourney from "./User-Journey-Map.png";
 import IconQuestionMark from "@/components/icons/Icon-QuestionMark.png";
 import IconInfo from "@/components/icons/Icon-Informational.png";
 import BestMergeMethod from "@/components/lush/best-merge-method-dendrogram.png";
+import CYF from "./cyf-square-logo.png";
+import WhoTargetsMe from "./wtm_logo_2020.png";
+import SchoolOfUX from "./school-of-ux-square-logo.png";
 
 const Header = ({ title, emphasis }) => {
   return (
@@ -75,12 +78,14 @@ export default function LushIsLush() {
           ✨
         </p>
       </div>
+
+      {/* Prototype */}
       <iframe
         // style="border: 1px solid rgba(0, 0, 0, 0.1);"
         width="800"
         height="450"
         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDvgLmnpoSWxEFW8ZC7cxPu%2FUntitled%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-7%26viewport%3D247%252C195%252C0.15%26t%3DAKGp5Kr8BEE3duEj-1%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A7%26mode%3Ddesign"
-        allowfullscreen
+        allowFullScreen={true}
       ></iframe>
 
       {/*        Bio          */}
@@ -91,57 +96,75 @@ export default function LushIsLush() {
             alt="a photo of Michelle"
             className="object-contain w-1/2"
           />
-          <h1>
-            Hi, I'm <span>Michelle Janay Bennett</span> UX Designer and Full
-            Stack Developer living in Birmingham
+          <h1 className="px-8 m-auto font-bold">
+            Hi, I'm{" "}
+            <span className="text-[#E10198]">Michelle Janay Bennett</span> UX
+            Researcher and Full Stack Developer living in Birmingham
           </h1>
         </div>
         <div className="md:flex">
-          <p>
+          <p className="mr-2">
             A recent graduate of CodeYourFuture, and a recent successful
             Software Developer at Who Targets Me, I decided to learn more about
             UX/UI to become more skilled in my trade.{" "}
           </p>
-          <p>
+          <p className="ml-2">
             I have a particular interest in research, analytics and JavaScript.
             Having worked in hospitality, charity and education companies, I’m
-            keen to explore opportunities in evidence based design, where I can
-            also build your products.
+            keen to explore opportunities in ethical tech / tech for good.
           </p>
         </div>
+        {/*   Timeline */}
         <div>
           <div className="border md:flex md:justify-evenly">
-            <div className="flex md:flex-auto md:grid md:text-center">
+            <div className="flex text-center md:flex-auto md:grid md:text-center">
               <ol className="flex flex-col py-8 px-4">
-                <li>List thumbnail</li>
-                <li>list title</li>
+                <li>
+                  <Image
+                    src={CYF}
+                    height={116}
+                    alt="CodeYourFuture"
+                    className="m-auto"
+                  />
+                </li>
+                <li>CodeYourFuture</li>
               </ol>
-              <ol className="border border-black"></ol>
+              <ol className="border border-grey"></ol>
               <ol className=""></ol>
               <ol className="py-8 px-4">
-                <li>List item</li>
+                <li>2022</li>
               </ol>
             </div>
-            <div className="flex md:grid md:flex-auto md:grid md:text-center">
-              <ol className="flex flex-col py-8 px-4">
-                <li>List thumbnail</li>
-                <li>list title</li>
+            <div className="flex text-center md:grid md:flex-auto md:grid md:text-center">
+              <ol className="flex text-center flex-col py-8 px-4">
+                <Image
+                  src={WhoTargetsMe}
+                  alt="Who Targets Me"
+                  height={116}
+                  className="m-auto"
+                />
+                <li>Who Targets Me</li>
               </ol>
-              <ol className="border border-black"></ol>
+              <ol className="border border-grey"></ol>
               <ol className=""></ol>
               <ol className="py-8 px-4">
-                <li>List item</li>
+                <li>2023</li>
               </ol>
             </div>
-            <div className="flex md:grid md:flex-auto md:grid md:text-center">
+            <div className="flex text-center md:flex-auto md:grid md:text-center">
               <ol className="flex flex-col py-8 px-4">
-                <li>List thumbnail</li>
-                <li>list title</li>
+                <Image
+                  src={SchoolOfUX}
+                  alt="The School of UX"
+                  height={116}
+                  className="m-auto"
+                />
+                <li>The School of UX</li>
               </ol>
-              <ol className="border border-black"></ol>
+              <ol className="border border-grey"></ol>
               <ol className=""></ol>
               <ol className="py-8 px-4">
-                <li>List item</li>
+                <li>2023</li>
               </ol>
             </div>
           </div>
@@ -149,14 +172,14 @@ export default function LushIsLush() {
       </div>
 
       {/*           DESIGN PROCESS           */}
-      <div className="bg-[#333333] text-white md:flex">
+      <div className="bg-[#333333] text-white md:flex justify-betweenpx-4 py-8">
         <div>
           <h1>Design Process</h1>
-          <p>
+          <p className="max-w-[24em]">
             I’ve created a process to have a solid foundation for my work as a
             designer/developer within different organisations.
           </p>
-          <p>
+          <p className="max-w-[24em]">
             Ideally, I’m following the same flow when I’m walking through my
             case studies in this portfolio.
           </p>
@@ -340,6 +363,7 @@ export default function LushIsLush() {
           <Image
             src={LushUserJourney}
             alt="Lush Product Search User Journey"
+            width={500}
             className="mt-[-8em] md:max-w-[80%] md:mx-auto"
           />
           <section className=" py-2">

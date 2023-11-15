@@ -10,9 +10,9 @@ export default async function ProjectDetails({ params }) {
   return (
     <main className="">
       <Link href={"./"} className="flex">
-        {<ArrowLeft />}Back
+        {<ArrowLeft />} Back
       </Link>
-      <h1>{project.title}</h1>
+      {project.title && <h1>{project.title}</h1>}
       {project.title.includes("Lush") && <Lush />}
     </main>
   );
