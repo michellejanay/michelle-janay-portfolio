@@ -6,7 +6,7 @@ export default function Home() {
         <h2 className={"font-libre"}>{`Hi, I'm a`}</h2>
         <h2 className={"font-libre lg:mb-4"}>{`software developer`}</h2>
         <p className="">
-          {`Specialising in Frontend, based in Birmingham, with dual citizenship (US/UK), who loves to travel.
+          {`Based in Birmingham, with dual citizenship (US/UK), who loves to travel.
         An ever curious and analytical bubbly personality, who loves writing
         algorithms in JavaScript and working with different JavaScript
         frameworks`}
