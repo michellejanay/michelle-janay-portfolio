@@ -5,7 +5,7 @@ import ArrowLeft from "@/components/ArrowLeft";
 export default async function ProjectDetails({
   params,
 }: {
-  params: React.ReactNode;
+  params: React.FC<{ params: Params }>;
 }) {
   const projects = await getAllProjects();
   const project = projects.find((p) => Number(p.id) === Number(params.id));

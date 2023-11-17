@@ -10,3 +10,7 @@ type Project = {
   type: String[];
 };
 [];
+
+type Params = {
+  id: number | string;
+};
