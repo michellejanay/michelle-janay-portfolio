@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Wix Website Clone",
+    "deployment": "https://michellejanay-wix-clone.netlify.app",
+    "source_code": "https://github.com/michellejanay/responsive-grid-project",
+    "figma_link": "",
+    "technologies": "HTML/CSS grid",
+    "image": "/images/wix-clone.png",
+    "gif": "/gifs/wix.gif",
+    "type": ["development"]
+  },
+  {
+    "id": 2,
+    "title": "magic 8 ball",
+    "deployment": "https://magic-michellejanay.netlify.app/",
+    "source_code": "https://github.com/michellejanay/magic",
+    "figma_link": "",
+    "technologies": "HTML/CSS, JavaScript",
+    "image": "/images/magic-8-ball.png",
+    "gif": "/gifs/magic.gif",
+    "type": ["development"]
+  },
+  {
+    "id": 3,
+    "title": "TV DOM Project",
+    "deployment": "https://cyf-michellejanay-tv-dom-project.netlify.app/",
+    "source_code": "https://github.com/michellejanay/tv-show-dom-project",
+    "figma_link": "",
+    "technologies": "HTML/CSS, JavaScript, TV Maze API",
+    "image": "/images/tv-dom-project.png",
+    "gif": "/gifs/tv-dom-project.gif",
+    "type": ["development"]
+  },
+  {
+    "id": 4,
+    "title": "Quote App",
+    "deployment": "https://michellejanay-quote-server.netlify.app/",
+    "source_code": "https://github.com/michellejanay/quote-app",
+    "figma_link": "",
+    "technologies": "React, Node, Express, PostgreSQL, Glitch",
+    "image": "/images/quote-app.png",
+    "gif": "/gifs/quote-app.gif",
+    "type": ["development"]
+  },
+  {
+    "id": 5,
+    "title": "Video App",
+    "deployment": "https://michellejanay-cyf-video-app.onrender.com/",
+    "source_code": "https://github.com/michellejanay/Video-App",
+    "figma_link": "",
+    "technologies": "React, Node/Express, PostgreSQL",
+    "image": "/images/video-app.png",
+    "gif": "/gifs/video-app.gif",
+    "type": ["development"]
+  },
+  {
+    "id": 6,
+    "title": "Sign In Journey",
+    "deployment": "",
+    "source_code": "https://github.com/michellejanay/login-signup-form",
+    "figma_link": "https://www.figma.com/proto/v8M2trVakeb1xbLfyHICdD/Sign-in-Journey?page-\"id\"=0%3A1&\"type\"=design&node-\"id\"=7-96&viewport=220%2C303%2C0.14&t=C5eyeA3CGhgfFxlJ-1&scaling=scale-down&starting-point-node-\"id\"=1%3A2&mode=design",
+    "technologies": "Figma, Svelte, PostgreSQL",
+    "image": "/images/sign-in-journey.png",
+    "gif": "",
+    "type": ["development", "ux/ui"]
+  },
+  {
+    "id": 8,
+    "title": "Car Rental Mockup",
+    "deployment": "",
+    "source_code": "",
+    "figma_link": "https://www.figma.com/proto/M6yeghnz9tX6gU6JVBAmWX/The-School-of-UX-Cohort-2-Project-Car-rental-exercise?page-id=1008%3A945&\"type\"=design&node-id=1530-29&viewport=227%2C50%2C0.27&t=bgXKXjKh0H5f2hli-1&scaling=scale-down&starting-point-node-id=1530%3A29&show-proto-sidebar=1&mode=design",
+    "technologies": "Figma",
+    "image": "/images/car-rental-app.png",
+    "gif": "",
+    "type": ["ux/ui"]
+  },
+  {
+    "id": 7,
+    "title": "School of UX Dashboard",
+    "deployment": "",
+    "source_code": "",
+    "figma_link": "https://www.figma.com/proto/064QiJN1jPBtmebRT5gBy1/The-School-of-UX-Cohort-2-Project-Dashboard-exercise?page-id=3205%3A2700&\"type\"=design&node-id=3537-2483&viewport=336%2C-1200%2C0.4&t=nI0LavF5v7wPErqS-1&scaling=scale-down&starting-point-node-id=3205%3A2715&show-proto-sidebar=1&mode=design",
+    "technologies": "Figma",
+    "image": "/images/school-of-ux-dashboard.png",
+    "gif": "",
+    "type": ["ux/ui"]
+  },
+  {
+    "id": 9,
+    "title": "Sainsbury's Checkout",
+    "deployment": "",
+    "source_code": "",
+    "figma_link": "https://www.figma.com/proto/ucJ4ukl1pedjyKhUEO97Qi/The-School-of-UX-Cohort-2-Project-Kiosk-exercise?page-id=1405%3A267&\"type\"=design&node-id=1567-1688&viewport=150%2C-190%2C0.14&t=MM2SOFE8YKvo3v8k-1&scaling=scale-down&starting-point-node-id=1567%3A1688&show-proto-sidebar=1&mode=design",
+    "technologies": "Figma",
+    "image": "/images/Sainsbury-checkout-kiosk.png",
+    "gif": "",
+    "type": ["ux/ui"]
+  },
+  {
+    "id": 10,
+    "title": "Lush - Information Technology Case Study",
+    "deployment": "",
+    "source_code": "",
+    "figma_link": "",
+    "technologies": "Figma, Optimal Sort, Svelte, PostgreSQL",
+    "image": "/images/lush-subscription-november-usability-test-info-page.png",
+    "gif": "",
+    "type": ["ux/ui"]
+  }
+]
