@@ -2,7 +2,11 @@ import getAllProjects from "@/lib/getAllProjects";
 import Link from "next/link";
 import ArrowLeft from "@/components/ArrowLeft";
 
-export default async function ProjectDetails({ params }) {
+export default async function ProjectDetails({
+  params,
+}: {
+  params: React.ReactNode;
+}) {
   const projects = await getAllProjects();
   const project = projects.find((p) => Number(p.id) === Number(params.id));
 
