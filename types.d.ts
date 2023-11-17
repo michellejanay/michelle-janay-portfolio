@@ -14,3 +14,8 @@ type Project = {
 type Params = {
   id: number;
 };
+
+type ProjectType = {
+  type: string;
+};
+[];

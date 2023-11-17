@@ -1,3 +1,7 @@
-export default async function filterProjects(id) {
+export default async function filterProjects({
+  projectType,
+}: {
+  projectType: ProjectType;
+}) {
   //todo
 }
