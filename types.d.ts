@@ -12,5 +12,5 @@ type Project = {
 [];
 
 type Params = {
-  id: number | string;
+  id: number
 };
