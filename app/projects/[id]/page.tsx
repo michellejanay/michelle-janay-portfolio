@@ -1,6 +1,7 @@
 import getAllProjects from "@/lib/getAllProjects";
 import Link from "next/link";
 import ArrowLeft from "@/components/ArrowLeft";
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 
 export default async function ProjectDetails({ params }: { params: Params }) {
   const projects = await getAllProjects();
